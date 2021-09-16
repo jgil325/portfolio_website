@@ -11,8 +11,9 @@ import { LeftSection } from "./HeroStyles";
 const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
-      <SectionTitle main center>
-        I am Jacob Gil <br />
+      <SectionTitle main>
+        Hi! I'm <br />
+        Jacob Gil, <br />
         Computer Science Student
       </SectionTitle>
       <SectionText>
