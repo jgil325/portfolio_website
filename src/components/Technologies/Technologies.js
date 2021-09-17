@@ -1,5 +1,5 @@
 import React from "react";
-import { DiFirebase, DiReact, DiZend } from "react-icons/di";
+import { DiFirebase, DiReact, DiSwift, DiZend } from "react-icons/di";
 import {
   Section,
   SectionDivider,
@@ -17,6 +17,7 @@ import {
 const Technologies = () => (
   <Section id="tech">
     <SectionDivider />
+    <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       In my short time in the software development field, I have already worked
@@ -25,11 +26,12 @@ const Technologies = () => (
     </SectionText>
     <List>
       <ListItem>
-        <DiFirebase size="3rem" />
+        <DiReact size="3rem" />
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience with <br /> React.js
+            Experience with <br /> React.js, TypeScript, JavaScript, HTML,{" "}
+            <br /> and CSS
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -43,7 +45,7 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size="3rem" />
+        <DiSwift size="3rem" />
         <ListContainer>
           <ListTitle>Mobile-App Dev</ListTitle>
           <ListParagraph>
