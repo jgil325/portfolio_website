@@ -7,13 +7,27 @@ import {
 } from "../../styles/GlobalComponents";
 import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
 
-const data = [
-  { number: 20, text: "Open Source Projects" },
-  { number: 1000, text: "Students" },
-  { number: 1900, text: "Github Followers" },
-  { number: 5000, text: "Github Stars" },
+const accData = [
+  { name: "CURO Honors Scholarship", org: "University of Georgia" },
+  { name: "HSF Scholar", org: "Hispanic Scholarship Fund" },
+  { name: "Etchberger Scholarship", org: "University of Georgia" },
+  { name: "SEO Tech Developer", org: "Sponsors for Educational Oppurtunity" },
+  { name: "Eagle Scout", org: "Boy Scouts of America" },
+  { name: "Club Secretary", org: "UGA Club Cycling" },
 ];
 
-const Acomplishments = () => <div>Acomplishments</div>;
+const Acomplishments = () => (
+  <Section>
+    <SectionTitle>Personal Acomplishments</SectionTitle>
+    <Boxes>
+      {accData.map((card, index) => (
+        <Box key={index}>
+          <BoxNum>{card.name}</BoxNum>
+          <BoxText>{card.org}</BoxText>
+        </Box>
+      ))}
+    </Boxes>
+  </Section>
+);
 
 export default Acomplishments;
