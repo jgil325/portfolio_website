@@ -1,12 +1,12 @@
 export const projects = [
   {
-    title: "MERN Memories",
+    title: "Vanilla Chat",
     description:
-      "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-    image: "/images/1.png",
-    tags: ["Mongo", "Express", "React", "Node"],
-    source: "https://google.com",
-    visit: "https://google.com",
+      "For my final project at SEO Tech Developer, myself and 4 others worked as a team to build this online chat at from scratch using the tecnologies we had learned during our time there. The site is clean, simple, easy to use, and the chat function is realtime.",
+    image: "/images/vanilla.png",
+    tags: ["Python", "Flask", "mySQL", "Javascript", "HTML", "CSS"],
+    source: "https://github.com/unwosu6/Vanilla-Chat-App",
+    visit: "https://vanillachatapp.herokuapp.com/welcome",
     id: 0,
   },
   {
@@ -42,16 +42,20 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
-];
-
-const accData = [
-  { number: 20, text: "Open Source Projects" },
-  { number: 1000, text: "Students" },
-  { number: 1900, text: "Github Followers" },
-  { number: 5000, text: "Github Stars" },
+  {
+    year: 2017,
+    text: "Started my computer science journey taking AP Computer Science Principles in high school",
+  },
+  {
+    year: 2018,
+    text: "Took AP Computer Science A, my second ever coding course",
+  },
+  {
+    year: 2020,
+    text: "Started my major in college, conducted research, and interned at beyond in New York City",
+  },
+  {
+    year: 2021,
+    text: "Continued my courses and research, was part of the inaugural class of SEO Tech Developer, and am currently interning at Deeds Creative",
+  },
 ];
