@@ -32,7 +32,7 @@ export const projects = [
   {
     title: "Internship Work",
     description:
-      "So far during my time at Deeds Creative, I have been working with React.js and TypeScript replicating the current JavaScript site in TypeScript. I ahve specifically worked on the user dashboard, mobile navbar, and dashboard loading screen. This site will be deployed within the next few weeks, be sure to check back. For now, the LIVE SITE button will lead to the JavaScript site. No code can be shown as it is private.",
+      "So far during my time at Deeds Creative, I have been working with React.js and TypeScript replicating the current JavaScript site in TypeScript. I have specifically worked on the user dashboard, mobile navbar, and dashboard loading screen. This site will be deployed within the next few weeks, be sure to check back. For now, the LIVE SITE button will lead to the JavaScript site. No code can be shown as it is private.",
     image: "/images/mdt.png",
     tags: ["React.js", "Gatsby", "TypeScript"],
     visit: "https://debristracker.org/",
