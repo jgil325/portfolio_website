@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "Vanilla Chat",
     description:
-      "For my final project at SEO Tech Developer, myself and 4 others worked as a team to build this online chat at from scratch using the tecnologies we had learned during our time there. The site is clean, simple, easy to use, and the chat function is realtime.",
+      "For my final project at SEO Tech Developer, myself and 4 others worked as a team to build this online chat app from scratch using the tecnologies we had learned during our time there. The site is clean, simple, easy to use, and the chat function is realtime.",
     image: "/images/vanilla.png",
     tags: ["Python", "Flask", "mySQL", "Javascript", "HTML", "CSS"],
     source: "https://github.com/unwosu6/Vanilla-Chat-App",
@@ -10,33 +10,32 @@ export const projects = [
     id: 0,
   },
   {
-    title: "E-Commerce",
+    title: "Portfolio Website",
     description:
-      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: "/images/2.png",
-    tags: ["React", "JavaScript"],
-    source: "https://google.com",
+      "This website itself is one of my first solo projects as well as one of my best ones. With some guidance from youtube, this site was created with Next.js, React.js, and JavaScript.",
+    image: "/images/portfolioweb.png",
+    tags: ["Next.js", "React.js", "JavaScript"],
+    source: "https://github.com/jgil325/portfolio_website",
     visit: "https://google.com",
     id: 1,
   },
   {
-    title: "WebRTC App",
+    title: "Feedback Form",
     description:
-      "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-    image: "/images/3.jpg",
-    tags: ["React", "WebRTC"],
-    source: "https://google.com",
-    visit: "https://google.com",
+      "This project was also done during my time at SEO and was done the week before I created vanilla chat as a way to learn how to integrate APIs into a website and learn to how use Flask to create the website with python.",
+    image: "/images/feedback.png",
+    tags: ["Python", "HTML", "CSS", "Flask"],
+    source: "https://github.com/jgil325/FeedbackForm",
+    visit: "https://feedback-form-seo.herokuapp.com/",
     id: 2,
   },
   {
-    title: "Unichat",
+    title: "Internship Work",
     description:
-      "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: "/images/4.jpg",
-    tags: ["React", "ChatEngine", "Firebase"],
-    source: "https://google.com",
-    visit: "https://google.com",
+      "So far during my time at Deeds Creative, I have been working with React.js and TypeScript replicating the current JavaScript site in TypeScript. I ahve specifically worked on the user dashboard, mobile navbar, and dashboard loading screen. This site will be deployed within the next few weeks, be sure to check back. For now, the LIVE SITE button will lead to the JavaScript site. No code can be shown as it is private.",
+    image: "/images/mdt.png",
+    tags: ["React.js", "Gatsby", "TypeScript"],
+    visit: "https://debristracker.org/",
     id: 3,
   },
 ];
