@@ -16,7 +16,7 @@ export const projects = [
     image: "/images/portfolioweb.png",
     tags: ["Next.js", "React.js", "JavaScript"],
     source: "https://github.com/jgil325/portfolio_website",
-    visit: "https://google.com",
+    visit: "https://jacobgil.com/",
     id: 1,
   },
   {
