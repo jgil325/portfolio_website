@@ -65,6 +65,8 @@ const Timeline = () => {
 
   return (
     <Section id="about">
+      <SectionDivider />
+      <br />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
         I am a third year student at the University of Georgia studying computer
