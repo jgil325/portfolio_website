@@ -1,5 +1,6 @@
 import Accomplishments from "../components/Accomplishments/Accomplishments";
 import BgAnimation from "../components/BackgroundAnimation/BackgroundAnimation";
+import Certificates from "../components/Certificates/Certificates";
 import Hero from "../components/Hero/Hero";
 import Projects from "../components/Projects/Projects";
 import Technologies from "../components/Technologies/Technologies";
@@ -16,6 +17,7 @@ const Home = () => {
       </Section>
       <Projects />
       <Technologies />
+      <Certificates />
       <Timeline />
       <Accomplishments />
     </Layout>

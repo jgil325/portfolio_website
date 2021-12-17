@@ -58,3 +58,6 @@ export const TimeLineData = [
     text: "Continued my courses and research, was part of the inaugural class of SEO Tech Developer, and am currently interning at Deeds Creative",
   },
 ];
+
+export const gitLink = "https://github.com/jgil325/PetRemindersSwiftUI";
+export const videoLink = "https://youtu.be/s9qdyLT8WtI";
