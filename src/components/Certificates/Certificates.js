@@ -21,11 +21,13 @@ const Links = styled.a`
   }
 `;
 
-const LinkContainer = styled.div`
-  flex-direction: row;
-  width: 100%;
-  padding: 0 50px;
-  color: #e4e6e7;
+export const LinkContainer = styled.ul`
+  width: 50%;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  margin: 2.5rem 0;
 `;
 
 const Certificates = () => (
