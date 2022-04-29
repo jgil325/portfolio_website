@@ -50,8 +50,8 @@ const Technologies = () => (
           <ListTitle>Mobile-App Dev</ListTitle>
           <ListParagraph>
             Experience with SwiftUI,
-            <br /> Kotlin, Dart/Flutter
-            <br /> (Learning React Native)
+            <br /> React Native,
+            <br /> Kotlin/Java, Dart/Flutter
           </ListParagraph>
         </ListContainer>
       </ListItem>

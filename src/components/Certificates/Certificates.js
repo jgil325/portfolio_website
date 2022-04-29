@@ -58,6 +58,26 @@ const Certificates = () => (
       <Links href={videoLink}>Video Demonstration</Links>
     </LinkContainer>
     <br />
+    <SectionSubText>Digital Brown Bag and Co</SectionSubText>
+    <SectionText>
+      This class was focused on learning from people in the industry about how
+      to navigate our future jobs as well as the connect between those future
+      jobs and college. Each week we would have a new speaker, each bringing
+      their own presentation about whatever they were passionate about. These
+      speakers ranged from million dollar startup founders to freelancers and
+      employees at companies like Twitter and Verizon. Information ranged from
+      talking about Credit Scores to things such as the importance of taking
+      breaks when needed and organizing time.
+    </SectionText>
+    <br />
+    <SectionText>
+      What I liked the most about this class was hearing from Shep Ogden, the
+      co-founder of Offbeat Media Group, which runs some of the largest social
+      media accounts across multiple platforms. I really enjoyed his talk
+      because I want to have my own startup in the future, and hearing about his
+      journey helped me learn so much, and the fact he did this coming right out
+      of college made it so much more impressive.
+    </SectionText>
   </Section>
 );
 
