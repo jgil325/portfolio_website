@@ -61,4 +61,3 @@ export const TimeLineData = [
 
 export const gitLink = "https://github.com/jgil325/PetRemindersSwiftUI";
 export const videoLink = "https://youtu.be/s9qdyLT8WtI";
-// test('should first', () => { second })
