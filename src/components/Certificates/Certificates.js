@@ -9,7 +9,7 @@ import {
 import {
   gitLink,
   videoLink,
-  certificateGitLink,
+  capstoneGitLink,
   siteLink,
 } from "../../constants/constants";
 import styled from "styled-components";
@@ -102,7 +102,7 @@ const Certificates = () => (
       site are below!
     </SectionText>
     <LinkContainer>
-      <Links href={certificateGitLink}>Code</Links>
+      <Links href={capstoneGitLink}>Code</Links>
       <Links href={siteLink}>Deployed Site</Links>
     </LinkContainer>
   </Section>
