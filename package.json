@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "develop": "next dev",
-    "build": "next build && next export",
-    "start": "next --openssl-legacy-provider start"
+    "build": "NODE_OPTIONS='--openssl-legacy-provider' next build && next export",
+    "start": "next start"
   },
   "dependencies": {
     "next": "10.2.3",
