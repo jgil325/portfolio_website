@@ -6,7 +6,12 @@ import {
   SectionText,
   SectionTitle,
 } from "../../styles/GlobalComponents";
-import { gitLink, videoLink } from "../../constants/constants";
+import {
+  gitLink,
+  videoLink,
+  certificateGitLink,
+  siteLink,
+} from "../../constants/constants";
 import styled from "styled-components";
 
 const Links = styled.a`
@@ -78,6 +83,28 @@ const Certificates = () => (
       journey helped me learn so much, and the fact he did this coming right out
       of college made it so much more impressive.
     </SectionText>
+    <br />
+    <SectionSubText>New Media Capstone</SectionSubText>
+    <SectionText>
+      This class was the last in the dev-certificate track. The class consisted
+      of working with a team of 6. Our team was given a client who then gave us
+      a product that we were to build out throughout the semester. This was
+      perfect for gaining experience designing the project architecture myself
+      and working with other students instead of alone.
+    </SectionText>
+    <br />
+    <SectionText>
+      The project we worked on was called OiStir. This was a site made for
+      hollywood and worldwide film-makers focusing on the climate crisis. A user
+      would be able to go to the site and click on words which would reveal cut
+      clips from a podcast that could be then used as a source of inspiration
+      for film ideas. The github link to the code and the link to the deployed
+      site are below!
+    </SectionText>
+    <LinkContainer>
+      <Links href={certificateGitLink}>Code</Links>
+      <Links href={siteLink}>Deployed Site</Links>
+    </LinkContainer>
   </Section>
 );
 
