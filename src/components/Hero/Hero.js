@@ -17,13 +17,13 @@ const Hero = (props) => (
         Computer Science Student
       </SectionTitle>
       <SectionText>
-        I am a third year Computer Science student at the University of Georgia.
-        Here you can find the work I've done so far in my career!
+        I am a fourth year Computer Science student at the University of
+        Georgia. Here you can find the work I've done so far in my career!
       </SectionText>
       <Button
         onClick={() =>
           window.open(
-            "mailto:Jacob.Gil@uga.edu? &subject=Jacob Gil - Portfolio Website"
+            "mailto:jacobgil325@gmail.com? &subject=Jacob Gil - Portfolio Website"
           )
         }
       >
